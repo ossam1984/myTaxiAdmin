@@ -1,0 +1,13 @@
+a {
+  @include transition-all();
+}
+
+.navbar-static-top {
+  z-index: 3;
+}
+
+#navbar {
+  .main {
+    margin-left: 100px;
+  }
+}

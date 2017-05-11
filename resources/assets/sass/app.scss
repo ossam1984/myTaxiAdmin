@@ -1,0 +1,33 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+@fa-font-path: "../fonts";
+@import "node_modules/font-awesome/scss/font-awesome";
+//@import "node_modules/animatewithsass/animate.scss";
+
+// Variables
+
+@import "variables";
+@import "basic";
+@import "mixins";
+@import "nav";
+@import "footer";
+@import "sidebar";
+
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+.btn.btn-primary{
+  background: orangered;
+  border: solid orange 3px;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    //transform: scale(1.1);
+    //border: groove;
+  }
+}
+
